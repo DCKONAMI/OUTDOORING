@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(images/bb9.jpg);
+  /*background-image: url(images/bb9.jpg); */
   opacity: o.7;
   min-height: 100vh;
   display: flex;
@@ -183,4 +183,5 @@ body {
 
 .site-footer a:hover {
   text-decoration: underline;
+
 }

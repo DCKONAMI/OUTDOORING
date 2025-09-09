@@ -7,7 +7,7 @@
 }
 
 body {
-  /*background-image: url(images/bb9.jpg); */
+background-color: white;
   opacity: o.7;
   min-height: 100vh;
   display: flex;
@@ -185,3 +185,4 @@ body {
   text-decoration: underline;
 
 }
+

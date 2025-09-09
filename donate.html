@@ -1,0 +1,68 @@
+<!-- Donation Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donate - MR.YAKUBU'S FAMILY'S</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding: 50px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .donate-options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .donate-btn {
+      padding: 14px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .donate-btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    /* Network colors */
+    .mtn { background: #ffcc00; color: black; }
+    .vodafone { background: #e60000; color: white; }
+    .airtel { background: #ff3300; color: white; }
+    .paypal { background: #0070ba; color: white; }
+    .back-link {
+      display: block;
+      margin-top: 30px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Choose Your Payment Method 💳</h2>
+  <p>Support the family through:</p>
+
+  <div class="donate-options">
+    <button onclick="window.location.href='https://mtn-momo-link.com';" class="donate-btn mtn">MTN MoMo</button>
+    <button onclick="window.location.href='https://vodafone-cash-link.com';" class="donate-btn vodafone">Vodafone Cash</button>
+    <button onclick="window.location.href='https://airteltigo-cash-link.com';" class="donate-btn airtel">AirtelTigo Money</button>
+    <button onclick="window.location.href='https://paypal.me/yourusername';" class="donate-btn paypal">PayPal</button>
+  </div>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+</body>
+</html>
